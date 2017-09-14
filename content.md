@@ -1,16 +1,26 @@
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
 <div class="talk-title">
-  <h1>A-Frame</h1>
-  <p>A web framework for building VR experiences</p>
+  <h1>WebVR & A-Frame</h1>
+  <p>Building Immersive Virtual Reality experiences</p>
   <p class="talk-info">
-    @andgokevin | Mozilla VR | **aframe.io**
+    Ram | JSFoo 2017
   </p>
 </div>
 
 <!-- NOTES -->
 - Onboard web developers into the 3D and VR world with easy-to-use tools
 - Prototype WebVR experiences faster
+
+------
+
+<!-- .slide: class="slide__questionsx" data-background="" style="" -->
+
+# About Me !  <!-- .element: style="" -->
+Ram Dayal Vaishnav 
+<div><img data-src="media/img/ram.jpg" style="width:250px"></div>
+- Senior Web Developer @ Arcesium
+- Mozilla Tech Speaker & Mozilla Rep
 
 ------
 
@@ -234,7 +244,7 @@ A web framework for building virtual reality experiences
 
 ---
 
-## Hello World
+## A-Frame
 
 <!-- .slide: data-background="media/img/aframe.jpg" data-transition="slide-in none" -->
 
@@ -264,6 +274,20 @@ A web framework for building virtual reality experiences
 
 ## Hello World
 
+<!-- .slide: data-background="media/img/metaverse.jpg" -->
+
+<div class="stretch" data-aframe-scene="scenes/hello-world.html"></div>
+
+<!-- NOTES -->
+- A-Frame scene by Ada Rose Edwards running from inside my HTML slides
+- Works on desktop, Android, iOS, Samsung Gear VR, Oculus Rift, HTC Vive
+- Could open up the DOM Inspector to change values live
+- Since it's just HTML...
+
+---
+
+## Hello World
+
 <!-- .slide: data-background="media/img/aframe.jpg" data-transition="fade-in slide-out" -->
 
 ```html
@@ -285,22 +309,6 @@ A web framework for building virtual reality experiences
 - Readable: HTML arguably most accessible language in computing
 - Encapsulated: copy-and-paste HTML anywhere else and still work, no state or variables
 - Quickly look at a live example...
-
----
-
-## Hello Metaverse
-
-<i>by Ada Rose Edwards (@lady_ada_king)</i>
-
-<!-- .slide: data-background="media/img/metaverse.jpg" -->
-
-<div class="stretch" data-aframe-scene="scenes/80s.html"></div>
-
-<!-- NOTES -->
-- A-Frame scene by Ada Rose Edwards running from inside my HTML slides
-- Works on desktop, Android, iOS, Samsung Gear VR, Oculus Rift, HTC Vive
-- Could open up the DOM Inspector to change values live
-- Since it's just HTML...
 
 ---
 
@@ -505,7 +513,7 @@ Curated collection of A-Frame components.
 
 <!-- .slide: data-background="media/img/inspector.png" data-state="state--bg-dark" -->
 
-Visual tool for A-Frame. Just `<ctrl>+<alt>+i`.
+Visual tool for A-Frame. Just `<ctrl>+<alt>+i`. [Demo](http://aframe.io).
 
 <div class="stretch" data-aframe-scene="scenes/80s.html"></div>
 
@@ -637,3 +645,14 @@ iStaging
 - Most work done on GitHub
 - Active community on Slack to share projects, interact, hang out, seek help
 - Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
+
+------
+
+# Thanks !  <!-- .element: style="" -->
+
+- Sample VR Portal : [gurumukhi.github.io/vr-ram](https://gurumukhi.github.io/vr-ram/)
+- Demo & Docs : [aframe.io](https://aframe.io/) | [aframe.io/docs](https://aframe.io/docs/)
+- Telegram : [telegram.me/WebVRIndia](https://telegram.me/WebVRIndia)
+- Slack : [aframevr-slack.herokuapp.com](https://aframevr-slack.herokuapp.com/)
+- Slides : [gurumukhi.github.io/jsfoo-vr-talk](https://gurumukhi.github.io/jsfoo-vr-talk/)
+- Find me : [@ram_gurumukhi](http://twitter.com/ram_gurumukhi) | [vaishnav.rd@gmail.com](mailto:vaishnav.rd@gmail.com) 
